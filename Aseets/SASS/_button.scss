@@ -1,0 +1,15 @@
+.bottoni {
+  border: none;
+  padding: 8px 30px;
+  background-color: $Black;
+  color: $White;
+  &:hover {
+    background-color: $White;
+    color: $VeryDarkGray;
+  }
+}
+
+.bot {
+  display: flex;
+  align-items: center;
+}
