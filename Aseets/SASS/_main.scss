@@ -1,0 +1,28 @@
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .shop {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.chairLeft,
+.chairRight,
+.firstImage {
+  width: 100%;
+}
+
+.chairRight {
+  @media screen and (min-width: 768px) {
+    height: 150px;
+    object-fit: cover;
+  }
+
+  @media screen and (min-width: 990px) {
+    width: 100%;
+    height: auto;
+  }
+}
