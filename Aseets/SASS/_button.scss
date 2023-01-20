@@ -1,15 +1,18 @@
 .bottoni {
+  background-color: white;
   border: none;
-  padding: 8px 30px;
-  background-color: $Black;
-  color: $White;
-  &:hover {
-    background-color: $White;
-    color: $VeryDarkGray;
-  }
+  font-weight: 400;
+  font-size: 1rem;
+  color: $VeryDarkGray;
+  letter-spacing: 12px;
 }
 
 .bot {
+  display: flex;
+  align-items: center;
+}
+
+.allignBottone {
   display: flex;
   align-items: center;
 }
